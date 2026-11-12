@@ -2,24 +2,6 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online%20App-0d9488?style=for-the-badge&logo=cloudflare&logoColor=white)](https://uni-ora.uniora-official.workers.dev/dashboard/)
-[![Seed Funded](https://img.shields.io/badge/Seed%20Funded-KPRIET%20Cell-10b981?style=for-the-badge&logo=target&logoColor=white)](https://kpriet.ac.in)
-[![Cloudflare Workers](https://img.shields.io/badge/Deploy-Cloudflare%20Edge-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://uni-ora.uniora-official.workers.dev/dashboard/)
-
-<br/>
-
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688.svg?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL%20RLS-3ECF8E.svg?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
-[![Google GenAI](https://img.shields.io/badge/Google%20GenAI-Gemini%20Vision-4285F4.svg?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/)
-[![Uvicorn](https://img.shields.io/badge/Uvicorn-Async%20Server-purple.svg?style=flat-square&logo=gunicorn&logoColor=white)](https://www.uvicorn.org/)
-[![Pydantic](https://img.shields.io/badge/Pydantic-v2.6-E92063.svg?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![HTTPX](https://img.shields.io/badge/HTTPX-Async%20Client-blueviolet.svg?style=flat-square)](https://www.python-httpx.org/)
-[![Status](https://img.shields.io/badge/Readiness%20Score-Engine%20Ready-success.svg?style=flat-square)]()
-[![Schemes](https://img.shields.io/badge/Schemes-500%2B%20Covered-orange.svg?style=flat-square)]()
-
-<br/>
-
 **A seed-funded, AI-powered e-governance platform connecting citizens to applicable Central and State Government welfare schemes through automated rule-based eligibility evaluation and Google Gemini Vision document verification.**
 
 </div>

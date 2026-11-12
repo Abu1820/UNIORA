@@ -1,75 +1,65 @@
+# ⚡ UNIORA — Intelligent Civic Welfare & Government Schemes Platform
+
 <div align="center">
 
-# ⚡ UNIORA
-### Intelligent Welfare Schemes & Civic Empowerment Platform
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online%20App-0d9488?style=for-the-badge&logo=cloudflare&logoColor=white)](https://uni-ora.uniora-official.workers.dev/dashboard/)
+[![Seed Funded](https://img.shields.io/badge/Seed%20Funded-KPRIET%20Cell-10b981?style=for-the-badge&logo=target&logoColor=white)](https://kpriet.ac.in)
+[![Cloudflare Workers](https://img.shields.io/badge/Deploy-Cloudflare%20Edge-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://uni-ora.uniora-official.workers.dev/dashboard/)
 
-A centralized, AI-assisted civic e-governance engine connecting citizens to applicable Central and State Government welfare schemes through automated eligibility matching and GenAI document verification.
+<br/>
 
-<br />
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688.svg?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL%20RLS-3ECF8E.svg?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Google GenAI](https://img.shields.io/badge/Google%20GenAI-Gemini%20Vision-4285F4.svg?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-Async%20Server-purple.svg?style=flat-square&logo=gunicorn&logoColor=white)](https://www.uvicorn.org/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-v2.6-E92063.svg?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+[![HTTPX](https://img.shields.io/badge/HTTPX-Async%20Client-blueviolet.svg?style=flat-square)](https://www.python-httpx.org/)
+[![Status](https://img.shields.io/badge/Readiness%20Score-Engine%20Ready-success.svg?style=flat-square)]()
+[![Schemes](https://img.shields.io/badge/Schemes-500%2B%20Covered-orange.svg?style=flat-square)]()
 
-<a href="https://uni-ora.uniora-official.workers.dev/dashboard/">
-  <img src="https://img.shields.io/badge/🚀_Live_Demo-Launch_UNIORA_Dashboard-6366f1?style=flat&logo=cloudflare&logoColor=white" alt="Launch Live Platform" height="24" />
-</a>
-&nbsp;
-<a href="https://kpriet.ac.in">
-  <img src="https://img.shields.io/badge/Institutional_Award-Seed_Funded-059669?style=flat&logo=target&logoColor=white" alt="Seed Funded" height="24" />
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/Python-3.11+-0284c7?style=flat&logo=python&logoColor=white" alt="Python" height="24" />
-&nbsp;
-<img src="https://img.shields.io/badge/FastAPI-Framework-0d9488?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" height="24" />
-&nbsp;
-<img src="https://img.shields.io/badge/Supabase-PostgreSQL-10b981?style=flat&logo=supabase&logoColor=white" alt="Supabase" height="24" />
-&nbsp;
-<img src="https://img.shields.io/badge/Google_Gemini-Vision_OCR-7c3aed?style=flat&logo=google&logoColor=white" alt="Google Gemini" height="24" />
+<br/>
 
-<br />
-
-```
-FastAPI  •  Cloudflare Workers Edge  •  Supabase PostgreSQL (RLS)  •  Google GenAI Vision  •  Rule Engine
-```
-
-<p>
-  <a href="#-key-capabilities"><b>Features</b></a> &nbsp;•&nbsp;
-  <a href="#%EF%B8%8F-system-architecture"><b>Architecture</b></a> &nbsp;•&nbsp;
-  <a href="#-tech-stack"><b>Tech Stack</b></a> &nbsp;•&nbsp;
-  <a href="#-project-structure"><b>Structure</b></a> &nbsp;•&nbsp;
-  <a href="#-quick-start"><b>Setup</b></a> &nbsp;•&nbsp;
-  <a href="https://uni-ora.uniora-official.workers.dev/dashboard/"><b>Live Demo ↗</b></a>
-</p>
+**A seed-funded, AI-powered e-governance platform connecting citizens to applicable Central and State Government welfare schemes through automated rule-based eligibility evaluation and Google Gemini Vision document verification.**
 
 </div>
 
 ---
 
-## 📌 Executive Summary
+## 🌐 Live Demo & Production Deployment
 
-Over 500+ Central and State welfare initiatives remain underutilized because eligible citizens are unaware of their entitlements or find eligibility criteria and document verification overwhelming.
+👉 **Live Web Application:** **[https://uni-ora.uniora-official.workers.dev/dashboard/](https://uni-ora.uniora-official.workers.dev/dashboard/)**  
+⚡ **Edge Infrastructure:** Cloudflare Workers Serverless Global Edge (<50ms Worldwide Ping)  
+🏛️ **Funding & Incubation:** Seed-funded by **KPRIET Innovation Cell**
 
-**UNIORA** bridges this last-mile civic governance gap:
+---
+
+## 📖 Project Overview
+
+Over 500+ Central and State welfare initiatives remain underutilized because eligible citizens are unaware of their entitlements or find complex qualifying criteria and document verification overwhelming.
+
+**UNIORA** solves this last-mile civic governance gap:
 - **Instant Eligibility Matching**: Evaluates citizen demographics (caste, income, occupation, age, disability, education) in milliseconds.
 - **Vision AI Verification**: Analyzes uploaded certificates using Google Gemini Vision to catch errors before submission.
 - **Dynamic Readiness Score**: Generates a 0–100% preparedness rating highlighting exactly what documents are missing.
 
-> 🏆 **Institutional Recognition:** Awarded **Institutional Seed Funding** by the **KPRIET Innovation Cell** for technical novelty and high community impact.
+---
+
+## 🚀 Key Modules & Capabilities
+
+| Module | Core Functionality |
+|---|---|
+| **01. Scheme Recommendation** | Personalized ranking algorithm sorting 500+ schemes by monetary benefit, eligibility fit, and deadlines. |
+| **02. Ask Uniora** | Rule-based conversational assistant guiding citizens through qualifying conditions and steps. |
+| **03. GenAI Document Verification** | OCR and authenticity scanner powered by **Google Gemini Vision API** to validate IDs (Aadhaar, Income, Community). |
+| **04. Eligible Schemes Engine** | Multi-parameter filtering engine calculating qualification matrices in sub-50ms. |
+| **05. My Readiness Score** | 0–100% preparedness rating with custom checklists for missing paperwork. |
+| **06. Government Services Gateway** | Authenticated gateway to official state e-Sevai, Umang, and DigiLocker portals. |
+| **07–10. Civic Inclusivity Suite** | Multilingual language toggles, citizen demographic profiles, and accessibility preferences for rural connectivity. |
 
 ---
 
-## 🚀 Key Capabilities
-
-| # | Module | Core Functionality |
-|---|---|---|
-| **01** | **Scheme Recommendation** | Personalized ranking algorithm sorting 500+ schemes by monetary benefit, eligibility fit, and deadlines. |
-| **02** | **Ask Uniora** | Rule-based conversational assistant guiding citizens through qualifying conditions and steps. |
-| **03** | **GenAI Document Verification** | OCR and authenticity scanner powered by **Google Gemini Vision API** to validate IDs (Aadhaar, Income, Community). |
-| **04** | **Eligible Schemes Engine** | Multi-parameter filtering engine calculating qualification matrices in sub-50ms. |
-| **05** | **My Readiness Score** | 0–100% preparedness rating with custom checklists for missing paperwork. |
-| **06** | **Government Services Gateway** | Authenticated gateway to official state e-Sevai, Umang, and DigiLocker portals. |
-| **07–10** | **Civic Inclusivity Suite** | Multilingual language toggles, citizen demographic profiles, and accessibility preferences for rural connectivity. |
-
----
-
-## 🏗️ System Architecture
+## 🏗️ System Architecture & Data Flow
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -99,18 +89,18 @@ Over 500+ Central and State welfare initiatives remain underutilized because eli
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Complete Tech Stack
 
-- **Backend:** Python 3.11, FastAPI (`v0.110.0+`), Uvicorn
-- **AI & Vision:** Google GenAI Vision (`google-genai`), Pillow
-- **Database:** Supabase PostgreSQL, Row-Level Security (RLS)
-- **Edge & CDN:** Cloudflare Workers Serverless Runtime
-- **Networking:** HTTPX, Requests, Python-Multipart
-- **Frontend:** HTML5, CSS3 Grid/Flexbox, JavaScript (ES6+)
+* **Backend Framework:** Python 3.11, FastAPI (`v0.110.0+`), Uvicorn
+* **AI & Vision:** Google GenAI Vision (`google-genai`), Pillow
+* **Database & Auth:** Supabase PostgreSQL, Row-Level Security (RLS)
+* **Edge Routing & CDN:** Cloudflare Workers Serverless Runtime
+* **Networking & Ingestion:** HTTPX, Requests, Python-Multipart
+* **Frontend:** HTML5, CSS3 Grid/Flexbox, JavaScript (ES6+)
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Directory Structure
 
 ```
 UNIORA/
@@ -139,7 +129,7 @@ UNIORA/
 
 ---
 
-## 💻 Quick Start
+## 💻 Local Development Setup
 
 ```bash
 # 1. Clone repository
@@ -163,18 +153,11 @@ uvicorn backend.main:app --reload --port 8000
 
 ---
 
-## 🌐 Production Deployment
-
-- **Live URL:** [https://uni-ora.uniora-official.workers.dev/dashboard/](https://uni-ora.uniora-official.workers.dev/dashboard/)
-- **Infrastructure:** Cloudflare Workers Serverless Edge
-
----
-
 ## 👥 Authors & Acknowledgements
 
 * **Lead Architect & Developer:** **Abdul Majeed R** ([@Abu1820](https://github.com/Abu1820))
 * **Institution:** KPR Institute of Engineering and Technology (KPRIET)
-* **Grant:** Seed-funded by **KPRIET Innovation Cell**
+* **Incubation:** Seed-funded by **KPRIET Innovation Cell**
 
 ---
 
